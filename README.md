@@ -15,6 +15,7 @@ Process the BERT paper (Devlin et al., 2019) with:
 # Clone repository
 git clone <your-repo-url>
 cd layout-aware-rag
+```
 
 # Create virtual environment
 python -m venv venv
@@ -31,3 +32,31 @@ python download_paper.py
 
 # Run Streamlit app
 streamlit run app.py
+
+## 📹 Demo Video
+https://drive.google.com/file/d/1ioWjCCx-Y4h-8zXq8fiYTIwyDmS2HHHB/view?usp=sharing
+
+## 📊 Architecture
+See STRATEGY.md for detailed architecture decisions.
+
+## 🛠️ Tech Stack
+PDF Processing: PyMuPDF, pdfplumber
+Embeddings: sentence-transformers (MiniLM)
+Vector Store: FAISS
+LLM: Groq API
+UI: Streamlit
+
+
+## Running Tests
+
+```bash
+# Install test dependencies
+pip install pytest
+
+# Run all tests
+pytest tests/ -v
+
+# Run specific test file
+python tests/test_pdf_parser.py
+python tests/test_retrieval.py
+python tests/test_pipeline.py

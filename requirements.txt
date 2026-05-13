@@ -18,14 +18,16 @@ tokenizers==0.15.1
 faiss-cpu==1.7.4
 
 # LLM Integration
-groq==0.4.1
+groq==1.2.0
 python-dotenv==1.0.0
 
 # Web Framework
 streamlit==1.29.0
 
 # Utilities
-pydantic==2.5.0
+pydantic==2.13.4
+pydantic-core==2.46.4
+typing-inspection==0.4.2
 pandas==2.1.4
 numpy==1.26.2
 tqdm==4.66.1

@@ -23,7 +23,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Model configs
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "all-MiniLM-L6-v2")
-LLM_MODEL = "llama-3.1-70b-versatile"  # Groq model
+LLM_MODEL = "openai/gpt-oss-120b"  # Groq model
 
 # Chunking strategy
 CHUNK_SIZE = int(os.getenv("CHUNK_SIZE", 512))
