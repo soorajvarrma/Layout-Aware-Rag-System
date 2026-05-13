@@ -17,7 +17,8 @@ Process the BERT paper (Devlin et al., 2019) with:
 
 # Create virtual environment
 python -m venv venv
-source venv/Scripts/activate  # Git Bash on Windows
+
+source venv/Scripts/activate  
 
 # Install dependencies
 pip install -r requirements.txt
