@@ -11,11 +11,9 @@ Process the BERT paper (Devlin et al., 2019) with:
 
 ## 🚀 Quick Start
 
-```bash
+
 # Clone repository
-git clone <your-repo-url>
-cd layout-aware-rag
-```
+
 
 # Create virtual environment
 python -m venv venv
